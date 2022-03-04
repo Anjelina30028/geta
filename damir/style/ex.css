@@ -1,0 +1,53 @@
+nav {
+    margin: 0;
+    background-color: lightgray;
+}
+
+
+nav ul {
+    padding:0;
+    margin:0 40px 0 0 ;
+    list-style: none;
+    position: relative;
+    text-align: right;
+
+}
+
+nav ul li {
+    margin: 0 7px 0 0;
+    display:inline-block;
+    background-color: lightgray;
+    color:black;
+
+}
+
+nav a {
+    display:block;
+    padding:0 10px;
+    color:black;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+nav a:hover {
+    background-color: darkgray;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+    right: 0;
+
+}
+
+nav ul ul li {
+    float:none;
+    display:list-item;
+    position: relative;
+
+}
